@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3TituloRevistas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="19dp"
+                android:text="Ciencias Sociales y Economicas"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewRevistas"
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:layout_below="@+id/textView3TituloRevistas"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/txtDescripcionRevistas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewRevistas"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="\u003Cp\u003ECiencia y Tecnolog\u00eda es una revista cient\u00edfica publicada\u00a0semestralmente, abierta a investigadores, docentes y\u00a0profesionales ecuatorianos y extranjeros. Todos los\u00a0art\u00edculos, sin excepci\u00f3n, son sometidos a arbitraje a\u00a0trav\u00e9s de pares evaluadores nacionales o internacionales\u00a0de reconocido prestigio, por su experiencia en el \u00e1mbito\u00a0de la publicaci\u00f3n cient\u00edfica a evaluar, el mismo que est\u00e1\u00a0documentado por los art\u00edculos publicados en revistas de\u00a0renombre internacional. Los evaluadores no son miembros\u00a0del Comit\u00e9 Editorial ni de la entidad o instituci\u00f3n editora.\u00a0Las contribuciones deben ser originales e in\u00e9ditas y que\u00a0no hayan sido enviadas a otra revista para su publicaci\u00f3n.\u003C\/p\u003E"
+                android:textColor="#121111"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:justificationMode="inter_word"/>
+
+            <Button
+                android:id="@+id/btnenlistarrevistas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDescripcionRevistas"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/drawablewithripple"
+                android:text="Ver Ediciones"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

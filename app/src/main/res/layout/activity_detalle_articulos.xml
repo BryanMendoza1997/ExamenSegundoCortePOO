@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleArticulos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txttitulodetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:text="La Transversalización de la Educación Agrícola en el Sistema Educacional"
+                android:textAlignment="center"
+                android:textColor="#E31919"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttitulodetalle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:text="Autores:"
+        android:textColor="#090909"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtautoresdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="14dp"
+        android:text="Osmayderd Rodríguez Ocaña,Osmayderd Rodríguez Ocaña,Osmayderd Rodríguez Ocaña,Osmayderd Rodríguez Ocaña"
+        android:textAlignment="center"
+        android:textColor="#100F0F"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtautoresdetalle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:text=" Doi:"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdoidetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="0dp"
+                android:text="https://doi.org/10.18779/csye.v4i1.201"
+                android:textAlignment="center" />
+
+            <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdoidetalle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="9dp"
+        android:text="Palabras claves:"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtpalabrasclavesdetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView13"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="7dp"
+                android:text="Educación agrícola, Eje transversal"
+                android:textAlignment="center"
+                android:textColor="#090909"
+                android:textStyle="italic" />
+
+            <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpalabrasclavesdetalle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="12dp"
+        android:text="Volumen:"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtvolumendetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpalabrasclavesdetalle"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView15"
+        android:text="1"
+        android:textColor="#070707" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpalabrasclavesdetalle"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/txtvolumendetalle"
+        android:text="Sección:"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtsecciondetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpalabrasclavesdetalle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/textView17"
+        android:text="Ciencias Sociales"
+        android:textColor="#040303" />
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textView19">
+                <TextView
+                     android:id="@+id/textlineresumen"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="4dp"
+                     android:textSize="16sp"/>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:text="Resumen"
+                android:textColor="#020202"
+                android:textStyle="bold" />
+
+            <Button
+        android:id="@+id/btnhtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawablewithripple"
+        android:onClick="mostrarhtml"
+        android:text="HTML"
+        android:textColor="#FDFDFD"
+        android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnpedf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnhtml"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/drawablewithrippledos"
+                android:onClick="mostrarpdf"
+                android:text="PDF"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
