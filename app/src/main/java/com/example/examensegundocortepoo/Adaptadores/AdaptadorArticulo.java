@@ -40,7 +40,7 @@ public class AdaptadorArticulo extends RecyclerView.Adapter<AdaptadorArticulo.Vi
     @Override
     public void onBindViewHolder( AdaptadorArticulo.ViewHolder holder, int position) {
         holder.bind(listener);
-        holder.contenedor.setAnimation(AnimationUtils.loadAnimation(Ctx,R.anim.fadetransaccionanimation));
+        holder.contenedor.setAnimation(AnimationUtils.loadAnimation(Ctx,R.anim.fadescaleanimation));
         holder.titulo.setText(codigos.get(position).getTitulo());
         holder.autores.setText(codigos.get(position).getAutores());
         holder.seccion.setText(String.valueOf(codigos.get(position).getSeccion()));
